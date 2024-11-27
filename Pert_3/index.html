@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h2{
+            color : blue;
+        }
+        a[target="_blank"]{
+            background-color: aqua;
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(90deg,blue,yellow);
+        }
+        span{
+            /* Making it like block vertically align */
+            display: block;
+        }
+    </style>
+</head>
+
+<!-- Style hierarchy -->
+<!-- 1. inline  -->
+<!-- 2. internal  -->
+<!-- 3. external -->
+
+<body>
+    <!-- html will take inline style instead of head style -->
+    <h1 style="color: red;">HELLO</h1>
+    <h2 style="">HELLO</h2>
+    <h3>Hello</h3>
+
+    <a href="tes.com" target="_blank">tes</a>
+    <a href="tes" target="">halo</a>
+    <a href=""></a>
+
+    <div></div>
+
+    <span>halo</span>
+    <span>halo</span>
+    <span>halo</span>
+</body>
+</html>
