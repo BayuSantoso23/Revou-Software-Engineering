@@ -1,0 +1,44 @@
+.main-header{
+    text-align: center;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer{
+    text-align: center;
+}
+
+.main-section{
+    width: 80%;
+}
+
+form{
+    background-color: aliceblue;
+    padding: 16px;
+    border: 3px solid;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.form-item{
+    display: flex;
+    align-items: space-between;
+    align-items: center;
+}
+
+select{
+    display: block;
+}
+
+input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
