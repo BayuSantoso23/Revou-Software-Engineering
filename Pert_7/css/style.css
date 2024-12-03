@@ -1,0 +1,28 @@
+.container{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    background-color: red;   
+}
+
+button{
+    width: 32px;
+    height: 32px;
+    padding: 2px;
+    margin: 4px;
+}
+
+.container-row{
+    border: 2px solid;
+}
+
+input{
+    margin: 3px;
+    width: 73%;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 10%;
+    }
+}
